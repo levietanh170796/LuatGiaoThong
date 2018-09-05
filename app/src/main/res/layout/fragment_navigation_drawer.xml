@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/menu_xemay"
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#FFA726">
+            <LinearLayout
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scooter" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phạt xe máy"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu_car"
+
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#FF9800">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/driving"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Phạt ô tô"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/menu_truck"
+
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#FB8C00">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/truck"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Phạt xe tải"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/menu_bus"
+
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#F57C00">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bus"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Phạt xe khách"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/menu_bien"
+
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#FFA726">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/warning" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biển Báo"
+                    android:gravity="center"
+                    android:textColor="#ffff"
+                    android:textSize="15dp"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/menu_duong_day"
+
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:background="#FF9800">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/phone_call_menu"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Đường dây nóng"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="#FB8C00">
+            <LinearLayout
+                android:id="@+id/menu_share_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/menu_facebook"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Chia sẻ Facebook"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:background="#F57C00">
+        <LinearLayout
+            android:id="@+id/menu_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_rate"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rate 5 sao"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:background="#EF6C00">
+            <LinearLayout
+                android:id="@+id/menu_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/menu_store"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ứng dụng khác"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

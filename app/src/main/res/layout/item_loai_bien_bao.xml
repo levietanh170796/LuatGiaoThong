@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud"
+    android:padding="2dp">
+    <LinearLayout
+        android:id="@+id/imageView_layout_loai_bien"
+        android:layout_width="60dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView_loai_bien"
+            android:layout_marginLeft="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+
+            android:src="@drawable/motorbike"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/imageView_layout_loai_bien"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="4dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_toRightOf="@+id/imageView_list_bien_bao"
+            android:id="@+id/Ten_loai_bien"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="biển báo cấm"
+            android:textColor="#0b0b0b"
+            android:textSize="18dp"
+            android:lines="1"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/Ten_loai_bien"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="13dp"
+            android:src="@drawable/arrow_right"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

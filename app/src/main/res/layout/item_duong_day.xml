@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud"
+    android:padding="2dp">
+    <LinearLayout
+        android:id="@+id/imageView_layout_loai_bien"
+        android:layout_width="70dp"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/imageView_loai_bien"
+
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+
+            android:src="@drawable/duongdaynong"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_toRightOf="@+id/imageView_layout_loai_bien"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="4dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imageView_list_bien_bao"
+            android:id="@+id/Ten_dia_chi"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ten dia chi"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:lines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:layout_toRightOf="@+id/imageView_list_bien_bao"
+            android:id="@+id/so_dien_thoai"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="biển báo cấm"
+            android:textColor="#151515"
+            android:textSize="15dp"
+            android:lines="1"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/Ten_loai_bien"
+        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/call_duong_day"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="11dp"
+            android:src="@drawable/phone_call"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

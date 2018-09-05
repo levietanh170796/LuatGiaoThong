@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorToobar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/backgroud">
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/searchButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:padding="6dp"
+                android:src="@drawable/search" />
+            <EditText
+                android:layout_centerVertical="true"
+                android:id="@+id/input_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/searchButton"
+                android:paddingLeft="5dp"
+                android:singleLine="false"
+                android:textColorHint="#b7b7b7"
+                android:background="#00000000"
+                android:textColor="#121212"
+                android:textSize="17dp"
+                android:hint="Nhập từ khóa tìm kiếm" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

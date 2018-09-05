@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackgroud">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:background="@color/colorToobar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/layout_back"
+                android:layout_width="48dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/image_back"
+                    android:src="@drawable/left_arrow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+                <TextView
+
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="Chi tiết"
+                    android:paddingLeft="6dp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    />
+           -->
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud">
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:id="@+id/image_chitiet"
+                android:layout_width="58dp"
+                android:layout_height="55dp"
+                android:src="@drawable/motorbike"/>
+            <TextView
+                android:id="@+id/Ten_loi"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/image_chitiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#080808"
+                android:textSize="18dp"
+                android:text="Nghị định: 16/2016/NĐ-CP "/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroud"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/text_view_doi_tuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3139cc"
+                android:textSize="17dp"
+                android:text="doi tuong"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:id="@+id/text_view_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0a0909"
+                android:textSize="17dp"
+                android:text="noi dung"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroud"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/text_view_muc_phat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:textColor="#ce0c19"
+                android:text="tien phat"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroud"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#080808"
+                android:text="Hình phạt bổ sung: "/>
+            <TextView
+                android:id="@+id/text_view_phat_bo_sung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="#212121"
+                android:text="pht bo sung"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroud_hanhvi_lienquan">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:text="Hành vi liên quan"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_goi_y"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:dividerHeight="5dp"
+            android:divider="@color/colorbackgroud"></ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
